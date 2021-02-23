@@ -7,7 +7,7 @@ public class StatefulService {
     public int order(String name, int price){
         System.out.println("name = " + name + ", price = " + price);
         //this.price = price; //여기가 문제!
-        return price;
+        return price; //속성값을 변경하지 않고 넘기기만 수행.
     }
 
     public int getPrice(){
